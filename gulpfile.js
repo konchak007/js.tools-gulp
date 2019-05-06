@@ -88,7 +88,7 @@ gulp.task('scripts',function () {
 gulp.task('build',function () {
        gulp.src('src/img/*')
        .pipe(gulp.dest('dist/img/'));
-       gulp.src('src/js/**/*.js')
+       gulp.src('src/js/main.min.js')
        .pipe(gulp.dest('dist/js/'))
        gulp.src('src/css/*')
        .pipe(gulp.dest('dist/css/'))
